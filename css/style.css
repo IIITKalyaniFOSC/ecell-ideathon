@@ -1,9 +1,20 @@
 /* Home */
 
 
-/* about-ecell */
+/* about */
 
-/*about-ideathon*/
+
+/* Rectangle 1 */
+
+about {
+    position: absolute;
+    width: 1458px;
+    height: 570px;
+    left: -18px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.93);
+}
+
 
 /* Tracks */
 
