@@ -44,7 +44,61 @@
 
 
 /* Tracks */
+#tracks{
+    background: #000;
+}
+#tracks .ctrs{
+    margin-top: 10%;
+    margin-left: 8%;
+}
+.slick-prev::before,
+.slick-next::before{ color: #000 !important; }
 
+.container-recommendation{ width: 96%; }
+
+.card-product{ overflow: hidden; }
+
+.card-product-image { cursor: pointer; }
+
+.card-product-image img{ width: 230px; }
+
+.card-product-details{ padding: 10px 5px; }
+
+.card-product-image{
+    width: 280px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.card-product-details h6{
+    color: #002fff;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+}
+.card-product-details p{
+    margin-top: 5px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    line-height: 25px;
+}
+.card-product-details p a{
+    color: #000;
+    text-decoration: none;
+}
+.card-product-details p a:hover{
+    text-decoration: underline;
+}
+.card-product-details span{
+    color: #000000;
+    font-size: 13px;
+}
+.card-product-details .price{
+    font-weight: 500;
+}
 
 /* Timeline */
 
