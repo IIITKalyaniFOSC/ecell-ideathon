@@ -10,8 +10,8 @@
 /* Timeline */
 
 .timeline .timeline-item .timeline-marker.is-icon.is-large {
-    height: 2.5em;
-    width: 2.5em;
+    height: 2.8em;
+    width: 2.8em;
     line-height: 1.5rem;
 }
 
@@ -24,8 +24,12 @@
     background-color: rgba(34, 76, 152, 0.25);
 }
 
-
-/* Register */
+#timeline .blurrbg {
+    background-color: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(5px);
+    min-width: inherit;
+    min-height: inherit;
+}
 
 
 /* Team */
