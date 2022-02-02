@@ -1,231 +1,235 @@
 /* Home Starts here*/
-#home{
-    position: relative;
-    width: 100vw;
-    min-height: 670px;
-    margin: 0%;
-    padding: 0%;
-
+#home {
+  position: relative;
+  width: 100vw;
+  min-height: 670px;
+  margin: 0%;
+  padding: 0%;
 }
 /* For Mobile */
 @media screen and (max-width: 540px) {
-    .home .logo {
+  .home .logo {
     position: relative;
     width: 140px;
     height: 150px;
     margin-left: 60px;
     top: 40px;
-    }
+  }
 
-    .home-content{
-        display: none;
-    }
+  .home-content {
+    display: none;
+  }
 }
 
 /* For Tablets */
 @media screen and (min-width: 540px) and (max-width: 780px) {
-    .home .logo {
-        position: relative;
-        width: 140px;
-        height: 150px;
-        margin-left: 30px;
-        top: 40px;
-        }
+  .home .logo {
+    position: relative;
+    width: 140px;
+    height: 150px;
+    margin-left: 30px;
+    top: 40px;
+  }
 }
 .home .logo {
-    position: relative;
-    width: 180px;
-    height: 190px;
-    left: 130px;
-    top: 60px;
+  position: relative;
+  width: 180px;
+  height: 190px;
+  left: 130px;
+  top: 60px;
 }
 
-.home .bg{
-    position: relative;
-    margin-top: -197px;
-    z-index: -1;
-    background-size: cover;
+.home .bg {
+  position: relative;
+  margin-top: -197px;
+  z-index: -1;
+  background-size: cover;
 }
 
-.home .bg img{
-    width: 100vw;
-    height: 100%;
-    object-fit: contain;
-
+.home .bg img {
+  width: 100vw;
+  height: 100%;
+  object-fit: contain;
 }
 
-
-.home-content{
-    
-    position: auto;
-    background-repeat: no-repeat;
-    background-position: auto;
-    width: 45%; 
-    height: 45%;
-    bottom: 0px;
-    margin: 0%;
-    margin-left: 10%;
-    margin-top: -150px;
-    z-index: 100;
+.home-content {
+  position: auto;
+  background-repeat: no-repeat;
+  background-position: auto;
+  width: 45%;
+  height: 45%;
+  bottom: 0px;
+  margin: 0%;
+  margin-left: 55%;
+  margin-top: -150px;
+  z-index: 100;
 }
 
-.home-content svg{
-    margin-top: -1200px;
-    
+.home-content svg {
+  margin-top: -1200px;
 }
 
-                    svg#freepik_stories-creativity:not(.animated) .animable {
-                        opacity: 0;
-                    }
+svg#freepik_stories-creativity:not(.animated) .animable {
+  opacity: 0;
+}
 
-                    svg#freepik_stories-creativity.animated #freepik--background-complete--inject-5 {
-                        animation: 1s 1 forwards ease-out fadeIn;
-                        animation-delay: 0s;
-                    }
+svg#freepik_stories-creativity.animated
+  #freepik--background-complete--inject-5 {
+  animation: 1s 1 forwards ease-out fadeIn;
+  animation-delay: 0s;
+}
 
-                    svg#freepik_stories-creativity.animated #freepik--Pencil--inject-5 {
-                        animation: 1s 1 forwards ease-out fadeIn, 3s Infinite linear floating;
-                        animation-delay: 0s, 1s;
-                    }
+svg#freepik_stories-creativity.animated #freepik--Pencil--inject-5 {
+  animation: 1s 1 forwards ease-out fadeIn, 3s Infinite linear floating;
+  animation-delay: 0s, 1s;
+}
 
-                    svg#freepik_stories-creativity.animated #freepik--Notebook--inject-5 {
-                        animation: 1s 1 forwards ease-out slideUp;
-                        animation-delay: 0s;
-                    }
+svg#freepik_stories-creativity.animated #freepik--Notebook--inject-5 {
+  animation: 1s 1 forwards ease-out slideUp;
+  animation-delay: 0s;
+}
 
-                    svg#freepik_stories-creativity.animated #freepik--air-balloon--inject-5 {
-                        animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideRight;
-                        animation-delay: 0s;
-                    }
+svg#freepik_stories-creativity.animated #freepik--air-balloon--inject-5 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+  animation-delay: 0s;
+}
 
-                    svg#freepik_stories-creativity.animated #freepik--Character--inject-5 {
-                        animation: 1s 1 forwards ease-out slideUp;
-                        animation-delay: 0s;
-                    }
+svg#freepik_stories-creativity.animated #freepik--Character--inject-5 {
+  animation: 1s 1 forwards ease-out slideUp;
+  animation-delay: 0s;
+}
 
-                    svg#freepik_stories-creativity.animated #freepik--light-bulb--inject-5 {
-                        animation: 1.5s 1 forwards ease-out zoomIn;
-                        animation-delay: 0s;
-                    }
+svg#freepik_stories-creativity.animated #freepik--light-bulb--inject-5 {
+  animation: 1.5s 1 forwards ease-out zoomIn;
+  animation-delay: 0s;
+}
 
-                    svg#freepik_stories-creativity.animated #freepik--Book--inject-5 {
-                        animation: 1.5s 1 forwards ease-out slideLeft;
-                        animation-delay: 0s;
-                    }
+svg#freepik_stories-creativity.animated #freepik--Book--inject-5 {
+  animation: 1.5s 1 forwards ease-out slideLeft;
+  animation-delay: 0s;
+}
 
-                    svg#freepik_stories-creativity.animated #freepik--Stars--inject-5 {
-                        animation: 1s 1 forwards ease-out zoomIn;
-                        animation-delay: 0s;
-                    }
+svg#freepik_stories-creativity.animated #freepik--Stars--inject-5 {
+  animation: 1s 1 forwards ease-out zoomIn;
+  animation-delay: 0s;
+}
 
-                    svg#freepik_stories-creativity.animated #freepik--Planets--inject-5 {
-                        animation: 1.5s 1 forwards ease-out zoomIn;
-                        animation-delay: 0s;
-                    }
+svg#freepik_stories-creativity.animated #freepik--Planets--inject-5 {
+  animation: 1.5s 1 forwards ease-out zoomIn;
+  animation-delay: 0s;
+}
 
-                    @keyframes fadeIn {
-                        0% {
-                            opacity: 0;
-                        }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
 
-                        100% {
-                            opacity: 1;
-                        }
-                    }
+  100% {
+    opacity: 1;
+  }
+}
 
-                    @keyframes floating {
-                        0% {
-                            opacity: 1;
-                            transform: translateY(0px);
-                        }
+@keyframes floating {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 
-                        50% {
-                            transform: translateY(-10px);
-                        }
+  50% {
+    transform: translateY(-10px);
+  }
 
-                        100% {
-                            opacity: 1;
-                            transform: translateY(0px);
-                        }
-                    }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 
-                    @keyframes slideUp {
-                        0% {
-                            opacity: 0;
-                            transform: translateY(30px);
-                        }
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
 
-                        100% {
-                            opacity: 1;
-                            transform: inherit;
-                        }
-                    }
+  100% {
+    opacity: 1;
+    transform: inherit;
+  }
+}
 
-                    @keyframes slideRight {
-                        0% {
-                            opacity: 0;
-                            transform: translateX(30px);
-                        }
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
 
-                        100% {
-                            opacity: 1;
-                            transform: translateX(0);
-                        }
-                    }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 
-                    @keyframes zoomIn {
-                        0% {
-                            opacity: 0;
-                            transform: scale(0.5);
-                        }
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
 
-                        100% {
-                            opacity: 1;
-                            transform: scale(1);
-                        }
-                    }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
 
-                    @keyframes slideLeft {
-                        0% {
-                            opacity: 0;
-                            transform: translateX(-30px);
-                        }
+@keyframes slideLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
 
-                        100% {
-                            opacity: 1;
-                            transform: translateX(0);
-                        }
-                    }
-                
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 
 /* About */
 
-
 /* Tracks */
-
 
 /* Timeline */
 
 .timeline .timeline-item .timeline-marker.is-icon.is-large {
-    height: 2.5em;
-    width: 2.5em;
-    line-height: 1.5rem;
+  height: 2.5em;
+  width: 2.5em;
+  line-height: 1.5rem;
 }
 
 .timeline .timeline-item .timeline-content .heading.is-date {
-    font-size: medium;
+  font-size: medium;
 }
 
 #timeline {
-    background: linear-gradient(-135deg, rgb(34, 76, 152) 10%, transparent), repeating-linear-gradient(45deg, rgba(34, 76, 152, 1) 0%, rgba(31, 48, 94, 0.6) 5%, transparent 5%, transparent 10%), repeating-linear-gradient(-45deg, rgba(34, 76, 152, 0.4) 0%, rgba(31, 48, 94, 0.5) 5%, transparent 5%, transparent 10%);
-    background-color: rgba(34, 76, 152, 0.25);
+  background: linear-gradient(-135deg, rgb(34, 76, 152) 10%, transparent),
+    repeating-linear-gradient(
+      45deg,
+      rgba(34, 76, 152, 1) 0%,
+      rgba(31, 48, 94, 0.6) 5%,
+      transparent 5%,
+      transparent 10%
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      rgba(34, 76, 152, 0.4) 0%,
+      rgba(31, 48, 94, 0.5) 5%,
+      transparent 5%,
+      transparent 10%
+    );
+  background-color: rgba(34, 76, 152, 0.25);
 }
-
 
 /* Register */
 
-
 /* Team */
-
 
 /* Footer */
