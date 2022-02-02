@@ -2,8 +2,8 @@ AOS.init({
     duration: 1200,
 })
 
-/* Home */
-
+    /* Home */
+    
 
 /* About */
 
