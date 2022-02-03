@@ -21,6 +21,7 @@
     display: flex;
     position: absolute;
     font-size: 30px;
+    overflow: hidden;
     top: 80%;
     left: 10%;
     width: 300px;
@@ -36,11 +37,13 @@
 
 .btns a>span {
     position: absolute;
-    background-repeat: #fff;
+    background-repeat: repeat-y;
+    background: #fff;
     transform: translate(-50%, -50%);
     pointer-events: none;
     border-radius: 50%;
-    animation: animate 1s linear infinite;
+    opacity: 0.5;
+    animation: animate 0.3s linear infinite;
 }
 
 @keyframes animate {
@@ -49,8 +52,8 @@
         height: 0px;
     }
     100% {
-        width: 100px;
-        height: 100px;
+        width: 600px;
+        height: 600px;
     }
 }
 
