@@ -1,146 +1,149 @@
 /* Home Starts here*/
+
 #home {
-  position: relative;
-  width: 100vw;
-  min-height: 670px;
-  margin: 0%;
-  padding: 0%;
+    position: relative;
+    width: 100vw;
+    min-height: 670px;
+    margin: 0%;
+    padding: 0%;
 }
 
 .landingPageText {
-  position: absolute;
-  font-size: 55px;
-  top: 60%;
-  left: 10%;
-  margin-left: -30px;
-  margin-top: -50px;
+    position: absolute;
+    font-size: 55px;
+    top: 60%;
+    left: 10%;
+    margin-left: -30px;
+    margin-top: -50px;
 }
 
-.home .btns a{
-  display: flex;
-  position: absolute;
-  font-size: 30px;
-  top: 80%;
-  left: 10%;
-  width: 300px;
-  margin-left: -70px;
-  padding: 12px 60px;
-  margin-top: -80px;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 40px;
-  background: linear-gradient(90deg,#3CC6F3,#74C36D);
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+.home .btns a {
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    top: 80%;
+    left: 10%;
+    width: 300px;
+    margin-left: -70px;
+    padding: 12px 60px;
+    margin-top: -80px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #3CC6F3, #74C36D);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-.btns a > span{
-  position: absolute;
-  background-repeat: #fff;
-  transform: translate(-50%,-50%);
-  pointer-events: none;
-  border-radius: 50%;
-  animation: animate  1s linear infinite;
+.btns a>span {
+    position: absolute;
+    background-repeat: #fff;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    border-radius: 50%;
+    animation: animate 1s linear infinite;
 }
 
-@keyframes animate{
-  0%
-  {
-    width: 0px;
-    height: 0px;
-  }
-
-  100%
-  {
-    width: 100px;
-    height: 100px;
-  }
+@keyframes animate {
+    0% {
+        width: 0px;
+        height: 0px;
+    }
+    100% {
+        width: 100px;
+        height: 100px;
+    }
 }
+
+
 /* For Mobile */
-@media screen and (max-width: 540px) {
-  .home .logo {
-    position: relative;
-    width: 140px;
-    height: 150px;
-    margin-left: 60px;
-    top: 40px;
-  }
 
-  .home-content {
-    display: none;
-  }
+@media screen and (max-width: 540px) {
+    .home .logo {
+        position: relative;
+        width: 140px;
+        height: 150px;
+        margin-left: 60px;
+        top: 40px;
+    }
+    .home-content {
+        display: none;
+    }
 }
+
 
 /* For Tablets */
+
 @media screen and (min-width: 540px) and (max-width: 780px) {
-  .home .logo {
-    position: relative;
-    width: 140px;
-    height: 150px;
-    margin-left: 30px;
-    top: 40px;
-  }
+    .home .logo {
+        position: relative;
+        width: 140px;
+        height: 150px;
+        margin-left: 30px;
+        top: 40px;
+    }
 }
+
 .home .logo {
-  position: relative;
-  width: 180px;
-  height: 190px;
-  left: 130px;
-  top: 60px;
+    position: relative;
+    width: 180px;
+    height: 190px;
+    left: 130px;
+    top: 60px;
 }
 
 .home .bg {
-  position: relative;
-  margin-top: -250px;
-  z-index: -1;
-  background-size: cover;
+    position: relative;
+    margin-top: -250px;
+    z-index: -1;
+    background-size: cover;
 }
 
 .home .bg img {
-  width: 100vw;
-  height: 100vh;
-  object-fit: contain;
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
 }
 
 .home-content {
-  position: auto;
-  background-repeat: no-repeat;
-  background-position: auto;
-  width: 45%;
-  height: 45%;
-  bottom: 0px;
-  margin: 0%;
-  margin-left: 55%;
-  margin-top: -150px;
-  z-index: 100;
+    position: auto;
+    background-repeat: no-repeat;
+    background-position: auto;
+    width: 45%;
+    height: 45%;
+    bottom: 0px;
+    margin: 0%;
+    margin-left: 55%;
+    margin-top: -150px;
+    z-index: 100;
 }
 
 .home-content svg {
-  margin-top: -1200px;
+    margin-top: -1200px;
 }
 
 svg#freepik_stories-creativity:not(.animated) .animable {
-  opacity: 0;
+    opacity: 0;
 }
 
-svg#freepik_stories-creativity.animated
-  #freepik--background-complete--inject-5 {
-  animation: 1s 1 forwards ease-out fadeIn;
-  animation-delay: 0s;
+svg#freepik_stories-creativity.animated #freepik--background-complete--inject-5 {
+    animation: 1s 1 forwards ease-out fadeIn;
+    animation-delay: 0s;
 }
 
 svg#freepik_stories-creativity.animated #freepik--Pencil--inject-5 {
-  animation: 1s 1 forwards ease-out fadeIn, 3s Infinite linear floating;
-  animation-delay: 0s, 1s;
+    animation: 1s 1 forwards ease-out fadeIn, 3s Infinite linear floating;
+    animation-delay: 0s, 1s;
 }
 
 svg#freepik_stories-creativity.animated #freepik--Notebook--inject-5 {
-  animation: 1s 1 forwards ease-out slideUp;
-  animation-delay: 0s;
+    animation: 1s 1 forwards ease-out slideUp;
+    animation-delay: 0s;
 }
 
 #about {
-  margin-top: 120px;
+    margin-top: 120px;
 }
+
 #about .container {
     /*context def*/
     width: auto;
@@ -170,147 +173,149 @@ svg#freepik_stories-creativity.animated #freepik--Notebook--inject-5 {
 }
 
 svg#freepik_stories-creativity.animated #freepik--air-balloon--inject-5 {
-  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
-  animation-delay: 0s;
+    animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+    animation-delay: 0s;
 }
 
 svg#freepik_stories-creativity.animated #freepik--Character--inject-5 {
-  animation: 1s 1 forwards ease-out slideUp;
-  animation-delay: 0s;
+    animation: 1s 1 forwards ease-out slideUp;
+    animation-delay: 0s;
 }
 
 svg#freepik_stories-creativity.animated #freepik--light-bulb--inject-5 {
-  animation: 1.5s 1 forwards ease-out zoomIn;
-  animation-delay: 0s;
+    animation: 1.5s 1 forwards ease-out zoomIn;
+    animation-delay: 0s;
 }
 
 svg#freepik_stories-creativity.animated #freepik--Book--inject-5 {
-  animation: 1.5s 1 forwards ease-out slideLeft;
-  animation-delay: 0s;
+    animation: 1.5s 1 forwards ease-out slideLeft;
+    animation-delay: 0s;
 }
 
 svg#freepik_stories-creativity.animated #freepik--Stars--inject-5 {
-  animation: 1s 1 forwards ease-out zoomIn;
-  animation-delay: 0s;
+    animation: 1s 1 forwards ease-out zoomIn;
+    animation-delay: 0s;
 }
 
 svg#freepik_stories-creativity.animated #freepik--Planets--inject-5 {
-  animation: 1.5s 1 forwards ease-out zoomIn;
-  animation-delay: 0s;
+    animation: 1.5s 1 forwards ease-out zoomIn;
+    animation-delay: 0s;
 }
 
 @keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes floating {
-  0% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-
-  50% {
-    transform: translateY(-10px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
+    0% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 @keyframes slideUp {
-  0% {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: inherit;
-  }
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: inherit;
+    }
 }
 
 @keyframes slideRight {
-  0% {
-    opacity: 0;
-    transform: translateX(30px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
+    0% {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 @keyframes zoomIn {
-  0% {
-    opacity: 0;
-    transform: scale(0.5);
-  }
-
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 @keyframes slideLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-30px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
+    0% {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
+
 
 /* About */
 
+
 /* Tracks */
+
 
 /* Timeline */
 
 .timeline .timeline-item .timeline-marker.is-icon.is-large {
-  height: 2.5em;
-  width: 2.5em;
-  line-height: 1.5rem;
+    height: 2.8em;
+    width: 2.8em;
+    line-height: 1.5rem;
 }
 
 .timeline .timeline-item .timeline-content .heading.is-date {
-  font-size: medium;
+    font-size: medium;
 }
 
 #timeline {
-  background: linear-gradient(-135deg, rgb(34, 76, 152) 10%, transparent),
-    repeating-linear-gradient(
-      45deg,
-      rgba(34, 76, 152, 1) 0%,
-      rgba(31, 48, 94, 0.6) 5%,
-      transparent 5%,
-      transparent 10%
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      rgba(34, 76, 152, 0.4) 0%,
-      rgba(31, 48, 94, 0.5) 5%,
-      transparent 5%,
-      transparent 10%
-    );
-  background-color: rgba(34, 76, 152, 0.25);
+    background: linear-gradient(-45deg, #3CC6F3, #74C36D);
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+    height: inherit;
 }
 
-/* Register */
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#timeline .blurrbg {
+    backdrop-filter: blur(5px);
+    min-width: inherit;
+    min-height: inherit;
+}
+
 
 /* Team */
+
 
 /* Footer */
 
