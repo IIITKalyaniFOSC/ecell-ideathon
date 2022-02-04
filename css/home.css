@@ -1,0 +1,275 @@
+#home {
+    position: relative;
+    width: 100vw;
+    min-height: 670px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.landingPageText {
+    position: absolute;
+    font-size: 55px;
+    top: 60%;
+    left: 10%;
+    margin-left: -30px;
+    margin-top: -50px;
+}
+
+.buttons {
+    margin: 10%;
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 65px;
+}
+
+.btn-hover {
+    width: 300px;
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #25aae1);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+
+/* For Mobile */
+
+@media screen and (max-width: 540px) {
+    .home .logo {
+        position: relative;
+        width: 140px;
+        height: 150px;
+        margin-left: 60px;
+        top: 40px;
+    }
+    .home-content {
+        display: none;
+    }
+}
+
+
+/* For Tablets */
+
+@media screen and (min-width: 540px) and (max-width: 780px) {
+    .home .logo {
+        position: relative;
+        width: 140px;
+        height: 150px;
+        margin-left: 30px;
+        top: 40px;
+    }
+}
+
+.home .logo {
+    position: relative;
+    width: 180px;
+    height: 190px;
+    left: 130px;
+    top: 60px;
+}
+
+.home .bg {
+    position: relative;
+    margin-top: -250px;
+    z-index: -1;
+    background-size: cover;
+}
+
+.home .bg img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+}
+
+.home-content {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: auto;
+    width: 45%;
+    height: 45%;
+    bottom: 0px;
+    margin: 0%;
+    margin-left: 55%;
+    margin-top: -150px;
+    z-index: 100;
+}
+
+.home-content svg {
+    margin-top: -1200px;
+}
+
+svg#freepik_stories-creativity:not(.animated) .animable {
+    opacity: 0;
+}
+
+svg#freepik_stories-creativity.animated #freepik--background-complete--inject-5 {
+    animation: 1s 1 forwards ease-out fadeIn;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-creativity.animated #freepik--Pencil--inject-5 {
+    animation: 1s 1 forwards ease-out fadeIn, 3s Infinite linear floating;
+    animation-delay: 0s, 1s;
+}
+
+svg#freepik_stories-creativity.animated #freepik--Notebook--inject-5 {
+    animation: 1s 1 forwards ease-out slideUp;
+    animation-delay: 0s;
+}
+
+#about {
+    margin-top: 120px;
+}
+
+#about .container {
+    /*context def*/
+    width: auto;
+    height: auto;
+    position: absolute;
+    margin: auto;
+    /*def container*/
+    /*box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);*/
+    max-width: 70em;
+    border-radius: 5px;
+    background-color: rgba(112, 112, 112, 0.849);
+    backdrop-filter: blur(40px);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    color: rgb(0, 0, 0);
+}
+
+#about .about-text {
+    min-height: 100vh;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50%;
+}
+
+svg#freepik_stories-creativity.animated #freepik--air-balloon--inject-5 {
+    animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-creativity.animated #freepik--Character--inject-5 {
+    animation: 1s 1 forwards ease-out slideUp;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-creativity.animated #freepik--light-bulb--inject-5 {
+    animation: 1.5s 1 forwards ease-out zoomIn;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-creativity.animated #freepik--Book--inject-5 {
+    animation: 1.5s 1 forwards ease-out slideLeft;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-creativity.animated #freepik--Stars--inject-5 {
+    animation: 1s 1 forwards ease-out zoomIn;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-creativity.animated #freepik--Planets--inject-5 {
+    animation: 1.5s 1 forwards ease-out zoomIn;
+    animation-delay: 0s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes floating {
+    0% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: inherit;
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
