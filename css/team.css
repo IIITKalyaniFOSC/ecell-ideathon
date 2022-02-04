@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+#team {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    z-index: 1;
+  }
+  .column {
+    float: left;
+    width: 20%;
+    padding: 5px 10px;
+    
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {
+    margin: 0 10px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    transition: all 0.4s ease;
+    
+  }
+  .card:hover{
+    transform: translateY(-11px);}
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  .container{
+    width: 20em;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-radius: 1em;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1em;
+}
+ 
+.user-image{
+    padding: 2em 0;    
+    transition: all 0.4s ease;
+}
+
+.user-image img{
+    width: 15em;
+    height:15em;
+    border-radius: 5%;
+    box-shadow:  0 0.3em .8em ;
+    object-fit: cover;
+}
+ 
+.content{
+    
+    padding: 2.2em;
+}
+ 
+.name{
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+ 
+
+ 
+.links{
+    display: flex;
+    justify-content: center;
+    margin: 1.5em 0;
+}
+
+.links a{
+  text-align: center;
+  line-height: 33px;
+  height: 35px;
+  width: 35px;
+  margin: 0 4px;
+  font-size: 18px;
+  color: #FFF;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  background: #bbbbbb;
+  transition: all 0.3s ease;
+}
+
+a:hover{
+  color: #FF676D;
+  background-color: #fff;
+  border-color: #313131;
+}
+a:last-child{
+    margin: 0;
+}
+ 
+.details{
+    margin-bottom: 1.8em;
+}
