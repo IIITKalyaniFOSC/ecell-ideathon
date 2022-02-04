@@ -17,44 +17,47 @@
     margin-top: -50px;
 }
 
-.home .btns a {
-    display: flex;
+.buttons {
+    margin: 10%;
     position: absolute;
-    font-size: 30px;
-    overflow: hidden;
-    top: 80%;
-    left: 10%;
+    margin-top: -370px;
+    margin-left: 65px;
+}
+
+.btn-hover {
     width: 300px;
-    margin-left: -70px;
-    padding: 12px 60px;
-    margin-top: -80px;
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 5px;
     color: #fff;
-    text-decoration: none;
-    border-radius: 40px;
-    background: linear-gradient(90deg, #3CC6F3, #74C36D);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
-.btns a>span {
-    position: absolute;
-    background-repeat: repeat-y;
-    background: #fff;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-    border-radius: 50%;
-    opacity: 0.5;
-    animation: animate 0.3s linear infinite;
+.btn-hover:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
-@keyframes animate {
-    0% {
-        width: 0px;
-        height: 0px;
-    }
-    100% {
-        width: 600px;
-        height: 600px;
-    }
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #25aae1);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 
 
@@ -108,7 +111,7 @@
 }
 
 .home-content {
-    position: auto;
+    position: relative;
     background-repeat: no-repeat;
     background-position: auto;
     width: 45%;
@@ -141,38 +144,6 @@ svg#freepik_stories-creativity.animated #freepik--Pencil--inject-5 {
 svg#freepik_stories-creativity.animated #freepik--Notebook--inject-5 {
     animation: 1s 1 forwards ease-out slideUp;
     animation-delay: 0s;
-}
-
-#about {
-    margin-top: 120px;
-}
-
-#about .container {
-    /*context def*/
-    width: auto;
-    height: auto;
-    position: absolute;
-    margin: auto;
-    /*def container*/
-    /*box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);*/
-    max-width: 70em;
-    border-radius: 5px;
-    background-color: rgba(112, 112, 112, 0.849);
-    backdrop-filter: blur(40px);
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 15%;
-    margin-bottom: 15%;
-    color: rgb(0, 0, 0);
-}
-
-#about .about-text {
-    min-height: 100vh;
-    background-color: #000000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 50%;
 }
 
 svg#freepik_stories-creativity.animated #freepik--air-balloon--inject-5 {
