@@ -23,21 +23,39 @@
     <script src="https://kit.fontawesome.com/83ce334a1c.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
-
 </head>
 
 <body>
-    <!--Oindrila's Mesh-->
+    <!--Oindrila-->
     <section class="hero is-fullheight" id="home">
         <div class="home">
             <img src="img/ECellLogo.png" class="logo" />
-            <img src="img/maxresdefault (1).svg" class="bg" />
+            <img src="img/maxresdefault (2).svg" class="bg" />
+            <div class="landingPageText">Ideathon</div>
+
+            <div class="btns">
+                <a href="#">Register Here</a>
+            </div>
+            <script>
+                const buttons = document.querySelectorAll("a");
+                buttons.forEach((button) => {
+                    button.onclick = function(e) {
+                        let x = e.clientX - e.target.offsetLeft;
+                        let y = e.clientY - e.target.offsetTop;
+                        let ripple = document.createElement("span");
+                        ripple.style.left = `${x}px`;
+                        ripple.style.top = `${y}px`;
+                        this.appendChild(ripple);
+                        setTimeout(function() {
+                            ripple.remove();
+                        }, 600); // 1second = 1000ms
+                    }
+                });
+            </script>
 
             <div class="home-content">
 
-                <svg class="animated" id="freepik_stories-creativity" xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 500 500" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
-                    xmlns:svgjs="http://svgjs.com/svgjs">
+                <svg class="animated" id="freepik_stories-creativity" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs">
     
                     
                     <g id="freepik--background-complete--inject-5" class="animable"
@@ -849,10 +867,10 @@
         <div class="blurrbg">
             <div class="hero-body timeline is-centered has-text-light center">
                 <header class="timeline-header">
-                    <span class="tag is-medium is-success title is-size-7-mobile is-size-5">Timeline</span>
+                    <span class="tag is-medium is-light title is-size-7-mobile is-size-5">Timeline</span>
                 </header>
                 <div class="timeline-item is-light">
-                    <div class="timeline-marker is-success is-icon is-large">
+                    <div class="timeline-marker is-light is-icon is-large">
                         <i class="fas fa-bullhorn" data-aos="zoom-in"></i>
                     </div>
                     <div class="timeline-content" data-aos="fade-right">
@@ -861,7 +879,7 @@
                     </div>
                 </div>
                 <div class="timeline-item is-light">
-                    <div class="timeline-marker is-info is-icon is-large">
+                    <div class="timeline-marker is-light is-icon is-large">
                         <i class="fas fa-info" data-aos="zoom-in"></i>
                     </div>
                     <div class="timeline-content" data-aos="fade-left">
@@ -871,7 +889,7 @@
                 </div>
                 <div class="timeline-item is-light">
                     <div class="timeline-marker is-light is-icon is-large">
-                        <i class="fab fa-wpforms" data-aos="zoom-in"></i>
+                        <i class="fab fa-wpforms has-text-primary" data-aos="zoom-in"></i>
                     </div>
                     <div class="timeline-content" data-aos="fade-right">
                         <p class="heading is-size-7-mobile is-size-5 is-date">February 19, 2022</p>
@@ -879,7 +897,7 @@
                     </div>
                 </div>
                 <div class="timeline-item is-light">
-                    <div class="timeline-marker is-warning is-icon is-large">
+                    <div class="timeline-marker is-light is-icon is-large">
                         <i class="far fa-lightbulb" data-aos="zoom-in"></i>
                     </div>
                     <div class="timeline-content" data-aos="fade-left">
