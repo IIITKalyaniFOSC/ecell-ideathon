@@ -262,16 +262,16 @@ svg#freepik_stories-creativity.animated #freepik--Planets--inject-5 {
 
 /* Footer */
 
-footer {
+.footer {
     background: #eef8ff;
     width: 100vw;
     position: absolute;
-    background: linear-gradient(to right, #ffe789, #ff9883);
+    background: linear-gradient(to right, #3CC6F3, #74C36D );
     color: #041d40;
     padding: 20px 0 30px;
     border-top-left-radius: 125px;
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 25px;
 }
 
 .footer .row {
@@ -295,7 +295,7 @@ footer {
     flex-basis: 20%;
 }
 
-.logo {
+.footer .logo {
     width: 80px;
     margin-bottom: 50px;
 }
