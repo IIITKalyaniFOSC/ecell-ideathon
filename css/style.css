@@ -51,62 +51,90 @@
 
 /* Footer */
 
-footer {
+.footer {
     background: #eef8ff;
     width: 100vw;
     position: absolute;
-    background: linear-gradient(to right, #ffe789, #ff9883);
-    color: #041d40;
-    padding: 20px 0 30px;
+    background: linear-gradient(to right,  #74C36D, #3CC6F3);
+    color: #fff;
+    padding: 20px 10px 500px ;
+    padding-bottom: -50px;
     border-top-left-radius: 125px;
-    font-size: 13px;
-    line-height: 20px;
+    border-top-right-radius: 125px;
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: 450;
 }
 
+footer.footer{
+  padding-bottom: 8px;
+}
 .footer .row {
     width: 85%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+
 }
 
 .footer .col {
     flex-basis: 25%;
     padding: 20px;
+    color: #fff;
 }
 
 .footer .col:nth-child(2) {
-    flex-basis: 20%;
+    margin-top: 45px;
+    line-height: 30px;
+    flex-basis: 25%;
 }
 
-.col:nth-child(3) {
-    flex-basis: 20%;
+.footer .col .off{
+  margin-top: -40px;
 }
 
-.logo {
-    width: 80px;
-    margin-bottom: 50px;
+.footer .col:nth-child(3) {
+    flex-basis: 20%;
+    line-height: 9px;
+    color: #fff;
+    flex-basis: 25%;
+}
+
+.footer .row .col .image .logo {
+
+    width: 120px;
+    height: 120px;
+    margin-left: -50px;
 }
 
 .footer .col h3 {
     width: fit-content;
     margin-bottom: 40px;
     position: relative;
+    font-weight: 600;
+    color:rgb(0, 0, 0);
+
 }
 
 .footer .email-id {
+    text-decoration: none;
+    color: inherit;
     width: fit-content;
     border-bottom: 1px solid #ccc;
     margin: 20px 0;
 }
 
-.footer .row .col ul li {
-    list-style: none;
-    margin-bottom: 12px;
+.footer .email-id a:hover {
+    color: #ccc
 }
 
-.footer .row .col ul li a {
+.footer .row .col ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.footer .row .col ul li a {       /* links*/
     text-decoration: none;
     color: #fff;
 }
@@ -120,86 +148,75 @@ footer {
     margin-bottom: 50px;
 }
 
-.form .far {
-    font-size: 18px;
-    margin-right: 10px;
-}
-
-.form input {
-    width: 100%;
-    background: transparent;
-    color: #ccc;
-    border: 0;
-    outline: none;
-}
-
-.form .button {
-    background: transparent;
-    border: 0;
-    outline: none;
-}
-
-form button .fas {
-    font-size: 16px;
-    background: #ff9883;
-}
-
 .social-icons a {
-    margin-right: -320px;
-    margin-left: 250px;
-    margin-top: -80px;
+
+    margin-right: -310px;
+    margin-left: 90px;
+    margin-top: 1200px;
+    margin-bottom: 50px;
     border-radius: 2%;
     cursor: pointer;
-    color: #02000a;
-    font-size: 30px;
+    color: #175357;
+    font-size: 60px;
 }
-
-.footer hr {
+.col .social-icons hr {
+    transform: translateX(-90px) ;
     width: 90%;
     border: 0;
     border-bottom: 1px solid #ccc;
     margin: 20px auto;
 }
 
+
+.footer hr {
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin-top: 5px;
+}
+
 .footer .copyright {
     text-align: center;
+    font-size: 18px;
 }
 
 .footer .underline {
     width: 100%;
-    height: 5px;
-    background: #767676;
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
     border-radius: 3px;
     position: absolute;
-    top: 25px;
+    top: 40px;
     left: 0;
     overflow: hidden;
 }
 
-.footer .underline span {
-    width: 15px;
-    height: 100%;
-    background: #fff;
-    border-radius: 3px;
-    position: absolute;
-    top: 0;
-    left: 10px;
-    animation: moving 2s linear infinite;
+.footer .col .image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-@keyframes moving {
-    0% {
-        left: -20px;
-    }
-    100% {
-        left: 100%;
-    }
+.footer .col.social {
+    text-align: center;
 }
 
-.footer .col .image .logo-t {
-    margin-right: -210px;
-    margin-left: 180px;
-    margin-top: -40px;
+.footer .col.social hr {
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.footer .link-icons {
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.footer .col.social a:hover {
+    color: #b9b9b9;
 }
 
 @media (max-width: 700px) {
