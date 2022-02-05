@@ -150,10 +150,6 @@
         margin-top: 400px;
         margin-left: 60px;
     }
-
-    /* .landingPageText{
-
-    } */
 }
 
 @media screen and (max-width:1000px) and (min-width:800px){
@@ -166,9 +162,6 @@
         .home-left{
             margin-left:-40px;
         }
-        /* .buttons{
-            margin-left:0px;
-        } */
         .btn-hover{
             width:250px;
         }
@@ -182,13 +175,7 @@
         height: 20vh;
         justify-content: left;
         margin: 10vh 5vw;
-        /* margin-left: -30px; */
-        /* top: 40px; */
     }
-
-    /* .home .mbg {
-        display: none;
-    } */
 
 }
 

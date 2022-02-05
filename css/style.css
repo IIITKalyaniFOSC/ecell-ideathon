@@ -27,6 +27,9 @@
 
 
 /* CSS reset */
+#tracks{
+    background-color: #ffffff;
+}
 
 *,
 *::after,
