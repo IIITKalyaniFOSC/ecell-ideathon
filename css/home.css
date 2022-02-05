@@ -74,10 +74,11 @@
         /* position: relative; */
         min-width: 160px !important;
         width:45vw !important;
+        justify-content: center;
         object-fit:contain;
         /* height: 150px; */
-        margin-left: auto;
-        margin-right: auto;
+        /* margin-left: auto;
+        margin-right: auto; */
         /* margin-left: 55px; */
         /* top: 40px; */
     }
