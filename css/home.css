@@ -9,24 +9,39 @@
 .home .mbg{
     display: none;
 }
-
+.home .logo{
+    position: absolute;
+    top:1;
+    width: 180px;
+    height: 190px;
+    margin: 7vh 10vw;
+    /* left: 130px; */
+    /* top: 60px; */
+}
 .landingPageText {
     position: absolute;
     font-size: 55px;
-    top: 60%;
+    top: 2;
     left: 10%;
     margin-left: -30px;
-    margin-top: -50px;
+    margin-top: -470px;
 }
 
 .buttons {
     /* margin-top:50vw ; */
     position: absolute;
-    top:0;
-    margin-top:500px;
+    top:3;
+    margin-top:-300px;
     /* margin-bottom: 1000px; */
     /* margin-top: -370px; */
-    /* margin-left: 65px; */
+    margin-left: 65px;
+}
+.home-content{
+    margin: 0%;
+}
+
+.home-content svg {
+    margin-top: -1600px;
 }
 
 .btn-hover {
@@ -66,6 +81,31 @@
     box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 
+.home .bg {
+    position: relative;
+    margin-top: -50px;
+    /* z-index: -1; */
+    background-size: cover;
+}
+
+.home .bg img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+}
+
+.home-content {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: auto;
+    width: 45%;
+    height: 45%;
+    /* bottom: 0px; */
+    margin: 0%;
+    margin-left: 55%;
+    margin-top: -100px;
+    z-index: 100;
+}
 
 /* For Mobile */
 
@@ -74,10 +114,11 @@
         /* position: relative; */
         min-width: 160px !important;
         width:45vw !important;
+        justify-content: center;
         object-fit:contain;
         /* height: 150px; */
-        margin-left: auto;
-        margin-right: auto;
+        /* margin-left: auto;
+        margin-right: auto; */
         /* margin-left: 55px; */
         /* top: 40px; */
     }
@@ -115,56 +156,20 @@
 @media screen and (min-width: 540px) and (max-width: 780px) {
     .home .logo {
         position: relative;
-        width: 40px;
-        height: 50px;
-        margin-left: 30px;
-        top: 40px;
+        width: 15vw;
+        height: 20vh;
+        justify-content: left;
+        margin: 10vh 5vw;
+        /* margin-left: -30px; */
+        /* top: 40px; */
     }
 
-    .home .mbg {
+    /* .home .mbg {
         display: none;
-    }
+    } */
+
 }
 
-.home .logo {
-    position: relative;
-    width: 180px;
-    height: 190px;
-    left: 130px;
-    top: 60px;
-}
-
-
-
-.home .bg {
-    position: relative;
-    margin-top: -250px;
-    z-index: -1;
-    background-size: cover;
-}
-
-.home .bg img {
-    width: 100vw;
-    height: 100vh;
-    object-fit: contain;
-}
-
-.home-content {
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: auto;
-    width: 45%;
-    height: 45%;
-    bottom: 0px;
-    margin: 0%;
-    margin-left: 55%;
-    margin-top: -150px;
-    z-index: 100;
-}
-
-.home-content svg {
-    margin-top: -1200px;
-}
 
 svg#freepik_stories-creativity:not(.animated) .animable {
     opacity: 0;
