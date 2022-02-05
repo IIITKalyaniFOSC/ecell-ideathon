@@ -4,7 +4,9 @@
 
 .about .background {
     width: 100vw;
-    height: auto;
+    height: 100vh;
+    margin-top: 20px;
+    object-fit: contain;
 }
 
 #about .container {
