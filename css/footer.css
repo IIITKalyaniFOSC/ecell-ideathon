@@ -2,6 +2,7 @@
     background: #eef8ff;
     width: 100vw;
     position: absolute;
+    background-color: inherit;
     background: linear-gradient(to right, #74C36D, #3CC6F3);
     color: #fff;
     padding: 20px 10px 500px;
