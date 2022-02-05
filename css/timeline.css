@@ -1,3 +1,7 @@
+/* #timeline {
+    background-color: #ffffff00;
+} */
+
 .timeline .timeline-item .timeline-marker.is-icon.is-large {
     height: 2.8em;
     width: 2.8em;
@@ -8,7 +12,8 @@
     font-size: medium;
 }
 
-#timeline {
+
+/*.hero.is-fullheight.gradient-bg {
     background: linear-gradient(-45deg, #3CC6F3, #74C36D);
     background-size: 400% 400%;
     animation: gradient 8s ease infinite;
@@ -25,7 +30,7 @@
     100% {
         background-position: 0% 50%;
     }
-}
+}*/
 
 #timeline .blurrbg {
     backdrop-filter: blur(5px);
