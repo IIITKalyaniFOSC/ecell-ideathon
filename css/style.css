@@ -24,12 +24,23 @@
 
 
 /* Tracks */
-
-
-/* CSS reset */
 #tracks{
     background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    width:90vw;
+    margin: 10vh 0vw 20vh 10vw;
 }
+.tracks-left{
+    width:15vw;
+
+}
+
+.tracks-right{
+    margin-left: 50px;
+    width:75vw;
+}
+/* CSS reset */
 
 *,
 *::after,
