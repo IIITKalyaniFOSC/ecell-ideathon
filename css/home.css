@@ -16,20 +16,21 @@
 .home .logo{
     width: 180px;
     height: 190px;
-    margin:0 10vw;
+    margin:3vw 10vw;
 }
 .landingPageText {
     /* position: absolute; */
-    font-size: 3em;
+    font-size: 26px;
     /* top: 2; */
     /* left: 10%; */
-    margin-left: 10vw;
-    margin-top: 5vw;
+    margin-left: 1vw;
+    margin-top: 7vw;
+    text-align: center;
 }
 
 .buttons {
-    margin-top: 5vw;
-    margin-left: 5vw;
+    margin-top: 1vw;
+    margin-left: 5.5vw;
     z-index:2;
 }
 .home-left{
