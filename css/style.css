@@ -33,7 +33,8 @@
 }
 .tracks-left{
     width:15vw;
-
+    height: 100%;
+    margin: auto 0;
 }
 
 .tracks-right{
