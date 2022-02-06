@@ -1,22 +1,22 @@
 #home {
     position: relative;
     width: 100vw;
-    /* min-height: 670px; */
     margin: 0%;
     padding: 0%;
+    height: fit-content !important;
+}
+
+.home {
+    height: fit-content !important;
 }
 
 .home .mbg{
     display: none;
 }
 .home .logo{
-    /* position: absolute; */
-    /* top:1; */
     width: 180px;
     height: 190px;
     margin:0 10vw;
-    /* left: 130px; */
-    /* top: 60px; */
 }
 .landingPageText {
     /* position: absolute; */
@@ -28,11 +28,6 @@
 }
 
 .buttons {
-    /* margin-top:50vw ; */
-    /* position: absolute; */
-    /* top:3; */
-    /* margin-top:-300px; */
-    /* margin-bottom: 1000px; */
     margin-top: 5vw;
     margin-left: 5vw;
     z-index:2;
@@ -46,8 +41,10 @@
     /* height:70vw; */
 }
 
-.home-content svg {
-    margin-top: -1600px;
+.home svg {
+    position: absolute;
+    top: 3%;
+    left: 52%;
 }
 
 .btn-hover {
@@ -87,18 +84,13 @@
     box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 
-.home .bg {
-    position: relative;
-    /* margin-top: -9px; */
-    /* z-index: -1; */
-    background-size: cover;
+.home {
+    height: fit-content;
 }
 
-.home .bg img {
-    width: 100vw;
-    height: 100vh;
-    object-fit: contain;
-}
+/* .home .bg {
+    background-size: cover;
+} */
 
 .home-content {
     position: relative;
@@ -153,11 +145,8 @@
 }
 
 @media screen and (max-width:1000px) and (min-width:800px){
-        #about{
-            margin-top:0px;
-        }
         .hero.is-fullheight{
-            min-height:unset;
+            min-height: unset;
         }
         .home-left{
             margin-left:-40px;
