@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    width: 900px;
+    width: 100vw;
     margin: 0px auto;
 }
 
@@ -31,7 +31,7 @@ body {
 /* Remove extra left and right margins, due to padding */
 
 .row {
-    margin: 0 -5px;
+    /* margin: 0 -5px; */
     margin-top: 100px;
 }
 
@@ -48,9 +48,6 @@ body {
 /* Responsive columns */
 
 @media screen and (max-width: 700px) {
-    .container {
-        width: 100%;
-    }
     .column {
         width: 100%;
         display: block;
