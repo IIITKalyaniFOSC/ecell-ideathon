@@ -518,8 +518,34 @@ body {
     }
 }
 
-
-/* Team */
-
-
-/* Footer */
+@media screen and (max-width:540px){
+    #tracks{
+        width:100vw;
+        margin: 0%;
+    }
+    .tracks-left{
+        display: none;
+    }
+    .tracks-right{
+        width:100vw;
+    }
+    /* .card-section{
+        width:80vw;
+    } */
+    .card,.card-section{
+        width:80vw !important;
+    }
+    .card,.flip-card,.card-front,.card-back,.inside-page{
+        width:70vw !important;
+        height:240px;
+    }
+    .card-section:hover .flip-card{
+        width:40vw !important;
+    }
+    .card-section:hover .card-back{
+        width:40vw !important;
+    }
+    .card-section:hover .inside-page{
+        width:40vw !important;
+    }
+}
