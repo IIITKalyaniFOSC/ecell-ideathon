@@ -10,7 +10,9 @@
     margin-top: 20px;
     object-fit: contain;
 }
-
+#about .about_mbg{
+  display: none; 
+}
 #about .container {
     /*context def*/
     width: auto;
@@ -38,4 +40,19 @@
     align-items: center;
     justify-content: center;
     margin-left: 50%;
+}
+@media  screen and (max-width:540px) {
+  #about{
+    margin-top: -50px;
+  }
+  .background{
+    display: none !important;
+  }
+  /* .about_mbg{
+  } */
+  #about img:nth-child(2){
+    display: block !important;
+    /* -webkit-transform: scaleX(-1) !important; */
+    transform: scaleY(-1) !important;
+  }
 }
