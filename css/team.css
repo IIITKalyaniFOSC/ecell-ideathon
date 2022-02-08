@@ -161,3 +161,12 @@ body {
     line-height: 40px;
     border-radius: 100%;
 }
+@media screen and (max-width:540px){
+#team .column{
+    width:fit-content;
+}
+#team .row{
+    width:70vw;
+    margin:auto;
+}
+}
