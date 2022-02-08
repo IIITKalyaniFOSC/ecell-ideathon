@@ -84,7 +84,7 @@
 
 .btn-hover.color-1 {
   background-image: linear-gradient(to right, #25aae1, #40e495, #25aae1);
-  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+  box-shadow: 0 4px 15px 0 rgba(19, 63, 62, 0.75);
 }
 
 /* For Mobile */
@@ -127,6 +127,11 @@
   .btn-hover{
       width:200px;
   }
+
+  .btn-hover.color-1 {
+    background-image: linear-gradient(to right, #216e74, #40d1e4, #216e74);
+    box-shadow: 0 4px 15px 0 rgba(19, 63, 62, 0.75);
+  }
 }
 
 @media screen and (max-width: 1000px) and (min-width: 780px) {
@@ -168,6 +173,11 @@
   }
   .hero.is-fullheight {
     min-height: unset;
+  }
+
+  .btn-hover.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #25aae1);
+    box-shadow: 0 4px 15px 0 rgba(19, 63, 62, 0.75);
   }
 }
 
