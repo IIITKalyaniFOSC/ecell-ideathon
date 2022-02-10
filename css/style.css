@@ -98,22 +98,22 @@ body {
 
 .inside-page__heading--city,
 .card-front__text-view--city {
-    color: #ff62b2;
+    color: #175357;
 }
 
 .inside-page__heading--ski,
 .card-front__text-view--ski {
-    color: #187686;
+    color: #175357;
 }
 
 .inside-page__heading--beach,
 .card-front__text-view--beach {
-    color: #fa7f67;
+    color: #1b575c;
 }
 
 .inside-page__heading--camping,
 .card-front__text-view--camping {
-    color: #00b97c;
+    color: #175357;
 }
 
 
@@ -353,11 +353,11 @@ body {
     flex-direction: column;
     height: 12rem;
     justify-content: center;
-    padding: .75rem;
+    /* padding: .75rem; */
 }
 
 .card-front__tp--city {
-    background: linear-gradient( to bottom, #ff73b9, #ff40a1);
+    background: #fcf0db;
 }
 
 .card-front__tp--ski {
@@ -369,11 +369,11 @@ body {
 }
 
 .card-front__tp--camping {
-    background: linear-gradient( to bottom, #00db93, #00b97d);
+    background: linear-gradient( to bottom, #ffffff, #ffffff);
 }
 
 .card-front__tp--mobility {
-    background: linear-gradient( to bottom, #ff73b9, #ff40a1);
+    background: linear-gradient( to bottom, #ffffff, #d3ced0);
 }
 
 
