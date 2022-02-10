@@ -13,7 +13,12 @@
 }
 
 .gradient-bg {
-    background: linear-gradient(-45deg, #3CC6F3, #74C36D) !important;
+    background: linear-gradient(
+    90deg,
+    rgba(42, 33, 204, 1) 0%,
+    rgba(141, 0, 196, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+    ) !important;
     background-size: 400% 400%;
     animation: gradient 8s ease infinite;
     height: inherit;
@@ -29,7 +34,7 @@
     display: flex;
     flex-direction: row;
     width:90vw;
-    margin: 10vh 0vw 20vh 10vw;
+    margin: 10vh 0vw -10vh 10vw;
 }
 .tracks-left{
     width:15vw;
@@ -183,7 +188,9 @@ body {
     width: 100%;
     z-index: -1;
 }
-
+.timeline .card{
+    box-shadow: 15px 15px 15px 0 #000 !important;
+}
 .inside-page__btn--city {
     border-color: #ff40a1;
     color: #ff40a1;
@@ -274,11 +281,12 @@ body {
 
 .card {
     background-color: rgba(0, 0, 0, .05);
-    box-shadow: -.1rem 1.7rem 6.6rem -3.2rem rgba(0, 0, 0, 0.5);
+    box-shadow: 15px 15px 15px 0px rgba(21, 77, 109, 0.2) !important;
     height: 15rem;
     position: relative;
     transition: all 1s ease;
     width: 15rem;
+    margin-bottom: 5vh;
 }
 
 
@@ -460,8 +468,14 @@ body {
     font-size: medium;
 }
 
-#timeline {
-    background: linear-gradient(-45deg, #3CC6F3, #74C36D);
+#timeline{
+    background: linear-gradient(
+        to bottom,
+        #fff 38%,
+        #3CC6F3 47%,
+        /* #6dc3ae 56%, */
+        #6dc383 60%
+        );
     background-size: 400% 400%;
     animation: gradient 8s ease infinite;
     height: inherit;
@@ -483,6 +497,7 @@ body {
     backdrop-filter: blur(5px);
     min-width: inherit;
     min-height: inherit;
+    margin-top:130px;
 }
 
 .gradient-border {
