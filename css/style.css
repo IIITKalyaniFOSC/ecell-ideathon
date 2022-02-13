@@ -34,7 +34,7 @@
     display: flex;
     flex-direction: row;
     width:90vw;
-    margin: 10vh 0vw -10vh 10vw;
+    margin: 10vh 0vw 0vh 10vw;
 }
 .tracks-left{
     width:15vw;
@@ -498,7 +498,6 @@ body {
     backdrop-filter: blur(5px);
     min-width: inherit;
     min-height: inherit;
-    margin-top:130px;
 }
 
 .gradient-border {
