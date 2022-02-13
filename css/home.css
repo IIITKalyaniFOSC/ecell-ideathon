@@ -13,12 +13,14 @@
 .home .logo {
   width: 180px;
   height: 190px;
-  margin: 0 10vw;
+  /* margin: 0 10vw 0 16vw; */
+  margin-left: 100px;
 }
 .landingPageText {
+  width: fit-content;
   font-size: 2em;
   text-align: center;
-  margin-left: 50px;
+  margin-left: 20px;
   margin-top: 130px;
   z-index: 2;
   color: #175357;
@@ -28,10 +30,13 @@
 
 .buttons {
   margin-top: 5vw;
-  margin-left: 6.5vw;
+  /* margin-left: 3vw; */
   z-index: 2;
+  display: flex;
 }
+
 .buttons button {
+  width: fit-content;
   font-family: "IBM Plex Sans Thai Looped", "Comfortaa", cursive;
 }
 .home-left {
@@ -54,7 +59,7 @@
   width: 300px;
   font-size: 25px;
   font-weight: 300;
-  padding-bottom: 3px;
+  padding: 0 30px;
   color: #fff;
   cursor: pointer;
   margin: 20px;
@@ -87,6 +92,15 @@
   box-shadow: 0 4px 15px 0 rgba(19, 63, 62, 0.75);
 }
 
+.btn-hover.color-2 {
+  background-image: linear-gradient(to right, #25aae1, #40e495, #25aae1);
+  box-shadow: 0 4px 15px 0 rgba(19, 63, 62, 0.75);
+}
+
+.buttons a {
+  color: #fff;
+}
+
 /* For Mobile */
 
 @media screen and (max-width: 540px) {
@@ -108,27 +122,44 @@
     margin: 0%;
     margin-top: 30px;
   }
+
   .home .landingPageText {
     margin: 0%;
     margin-top: 200px;
     color: #fff;
     font-size: 1.3em;
+    width: 100%;
   }
 
   .buttons {
     margin: 30px auto;
+    width: 100%;
+    flex-direction: column;
   }
+
+  .buttons button{
+    width: fit-content;
+    margin: 10px auto;
+  }
+
   .home svg {
     display: none;
   }
+
   .is-fullheight{
       min-width: unset;
   }
   .btn-hover{
       width:200px;
+      padding: 0 20px;
   }
 
   .btn-hover.color-1 {
+    background-image: linear-gradient(to right, #216e74, #40d1e4, #216e74);
+    box-shadow: 0 4px 15px 0 rgba(19, 63, 62, 0.75);
+  }
+
+  .btn-hover.color-2 {
     background-image: linear-gradient(to right, #216e74, #40d1e4, #216e74);
     box-shadow: 0 4px 15px 0 rgba(19, 63, 62, 0.75);
   }
@@ -137,6 +168,10 @@
 @media screen and (max-width: 1000px) and (min-width: 780px) {
   .hero.is-fullheight {
     min-height: unset;
+  }
+
+  .home .logo{
+    margin-left: 50px;
   }
   .home-left {
     height: 70vh;
@@ -155,20 +190,32 @@
   .home .logo {
     width: 100px;
     height: 110px;
+    margin-left: 80px;
   }
+
   .btn-hover {
     width: 150px;
     font-size: 20px;
   }
+
   .mbg {
     display: none;
   }
+
   .buttons {
-    margin-left: 3.4vw;
+    margin-left: 1vw;
+    align-self: flex-start;
+    margin-top: 0%;
+    flex-direction: column;
   }
+
+  .btn-hover{
+    padding: 0 10px 0 10px;
+  }
+
   .landingPageText {
     font-size: 1em;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-top: 40px;
   }
   .hero.is-fullheight {
@@ -178,6 +225,10 @@
   .btn-hover.color-1 {
     background-image: linear-gradient(to right, #25aae1, #40e495, #25aae1);
     box-shadow: 0 4px 15px 0 rgba(19, 63, 62, 0.75);
+  }
+
+  .btn-hover.color-2{
+    margin: 0px 20px;
   }
 }
 
