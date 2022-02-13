@@ -37,3 +37,7 @@
     min-width: inherit;
     min-height: inherit;
 }
+
+#timeline .hero-body.timeline.is-centered.has-text-light.center {
+    margin-top: 50px;
+}
