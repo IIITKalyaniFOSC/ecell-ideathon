@@ -161,7 +161,10 @@
 .pana_name {
   font-family: var(--font-serif);
   font-size: 1.125rem;
-  font-style: italic;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 900;
+  /* font-family: 'Cutive Mono', monospace; */
+  /* font-family: 'Waterfall', cursive; */
   line-height: 1.35;
 }
 
