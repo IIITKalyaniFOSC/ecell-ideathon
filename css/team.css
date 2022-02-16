@@ -51,6 +51,12 @@
 /* Responsive columns */
 
 @media screen and (max-width: 700px) {
+  .title {
+    font-size: 60px !important;
+    padding: 20px 0px;
+    margin-top: 30px;
+  }
+  
   .column {
     width: 100%;
     display: block;
@@ -165,13 +171,19 @@
   border-radius: 100%;
 }
 @media screen and (max-width: 540px) {
+  .title {
+    font-size: 60px !important;
+    padding: 20px 0px;
+    margin-top: 30px;
+  }
+
   #team .column {
     width: fit-content;
   }
   #team .row {
     width: 70vw;
     margin: auto;
-  }
+  }  
 }
 #team {
     background: linear-gradient(
